@@ -8,7 +8,7 @@ int heap[8] = {10 , 60 , 80 , 25 , 45 , 50 , 30 , 20 };
 //printf("%d \n",sizeof(heap));
 int size = 8;
 
-printHeap(heap , size);
+printHeap(heap , size); 
 
 heapify(heap , 0 , size);
 
@@ -49,6 +49,7 @@ if(max != pos){
 	a[max] = temp;
 
 }
+
 
 if(max <= arraySize/2 && max != pos ){
 heapify(a, max , arraySize);
