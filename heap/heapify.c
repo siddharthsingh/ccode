@@ -4,6 +4,7 @@
 void main(){
 
 
+
 	int heap[8] = {10 , 60 , 80 , 25 , 45 , 50 , 30 , 20 };
 	//printf("%d \n",sizeof(heap));
 
